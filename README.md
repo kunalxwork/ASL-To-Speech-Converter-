@@ -1,16 +1,16 @@
 # Real-Time American Sign Language (ASL) to Speech
 
-This project is a real-time ASL-to-speech converter built by (Your Name 1), (Your Name 2), and (Your Name 3).
+This project is a real-time ASL-to-speech converter built by Kothiya Kunal, Heet Jain, and Pal Jitendra.
 
 It uses a modern, lightweight pipeline to detect hand gestures from a webcam, classify them using a custom-trained neural network, and convert the resulting text to speech, all in real-time.
 
-## 🚀 Features
+## Features
 
 * **High-Speed Detection:** Uses **Google's MediaPipe** to extract 21 hand keypoints, which is much faster than traditional CNNs.
 * **Robust Classification:** Employs a **TensorFlow Lite (TFLite)** quantized model for highly efficient, on-device inference.
 * **Real-Time Audio:** Features a "hold-to-confirm" logic that builds a sentence and uses a multi-threaded `pygame` engine to play audio without freezing the webcam feed.
 
-## 🔧 How It Works
+##How It Works
 
 This project is split into three main parts:
 
@@ -18,15 +18,15 @@ This project is split into three main parts:
 2.  **`keypoint_classification.ipynb`**: A Jupyter Notebook that loads the `keypoint.csv`, trains a TensorFlow/Keras neural network on the data, and evaluates its accuracy.
 3.  **`real_time_detector.py`**: The final application. It uses MediaPipe to get keypoints, feeds them into the trained TFLite model for prediction, and speaks the confirmed letter.
 
-## 🛠️ How to Run This Project
+## How to Run This Project
 
 ### 1. Installation
 
 Clone the repository and install the required libraries:
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-cd YOUR_REPO_NAME
+git clone https://github.com/kunalxwork/ASL-To-Speech-Converter-.git
+cd ASL-To-Speech-Converter
 pip install -r requirements.txt
 ```
 
@@ -36,7 +36,7 @@ You can use the included `.tflite` model, or train your own:
 
 1.  Run the data collection script. Press a key to record samples for each letter (A-Z).
     ```bash
-    python collect_hand_data.py
+    python Train.py
     ```
 2.  Run the `keypoint_classification.ipynb` notebook to create a new `.keras` model.
 3.  Run the conversion script to create a new `.tflite` model (this is optional, as the main script can also use the `.keras` file).
