@@ -269,12 +269,12 @@
    },
    "outputs": [],
    "source": [
-    "# Model compilation\n",
-    "model.compile(\n",
-    "    optimizer='Adam',\n",
-    "    loss='sparse_categorical_crossentropy',\n",
-    "    metrics=['accuracy']\n",
-    ")"
+    "    # Model compilation\n",
+    "    model.compile(\n",
+    "        optimizer='Adam',\n",
+    "        loss='sparse_categorical_crossentropy',\n",
+    "        metrics=['accuracy']\n",
+    "    )"
    ]
   },
   {
@@ -394,13 +394,7 @@
       "\u001b[1m200/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━━\u001b[0m \u001b[1m0s\u001b[0m 2ms/step - accuracy: 0.5762 - loss: 1.6945\n",
       "Epoch 23: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 3ms/step - accuracy: 0.5803 - loss: 1.6941 - val_accuracy: 0.7055 - val_loss: 1.4010\n",
-      "Epoch 24/1000\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
+      "Epoch 24/1000\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m0s\u001b[0m 2ms/step - accuracy: 0.5834 - loss: 1.6983\n",
       "Epoch 24: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 3ms/step - accuracy: 0.5883 - loss: 1.6833 - val_accuracy: 0.7101 - val_loss: 1.3775\n",
@@ -590,13 +584,7 @@
       "\u001b[1m199/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━━\u001b[0m \u001b[1m0s\u001b[0m 2ms/step - accuracy: 0.6825 - loss: 1.3619\n",
       "Epoch 69: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 3ms/step - accuracy: 0.6860 - loss: 1.3542 - val_accuracy: 0.8002 - val_loss: 1.0656\n",
-      "Epoch 70/1000\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
+      "Epoch 70/1000\n",
       "\u001b[1m211/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━\u001b[0m \u001b[1m0s\u001b[0m 3ms/step - accuracy: 0.6855 - loss: 1.3564\n",
       "Epoch 70: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 4ms/step - accuracy: 0.6873 - loss: 1.3509 - val_accuracy: 0.7971 - val_loss: 1.0605\n",
@@ -786,13 +774,7 @@
       "\u001b[1m210/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━\u001b[0m \u001b[1m0s\u001b[0m 3ms/step - accuracy: 0.7144 - loss: 1.2545\n",
       "Epoch 115: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 4ms/step - accuracy: 0.7189 - loss: 1.2453 - val_accuracy: 0.8262 - val_loss: 0.9597\n",
-      "Epoch 116/1000\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
+      "Epoch 116/1000\n",
       "\u001b[1m206/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━\u001b[0m \u001b[1m0s\u001b[0m 2ms/step - accuracy: 0.7245 - loss: 1.2248\n",
       "Epoch 116: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 3ms/step - accuracy: 0.7202 - loss: 1.2352 - val_accuracy: 0.8267 - val_loss: 0.9539\n",
@@ -982,13 +964,7 @@
       "\u001b[1m203/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━━\u001b[0m \u001b[1m0s\u001b[0m 3ms/step - accuracy: 0.7361 - loss: 1.1618\n",
       "Epoch 161: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 4ms/step - accuracy: 0.7352 - loss: 1.1739 - val_accuracy: 0.8468 - val_loss: 0.8793\n",
-      "Epoch 162/1000\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
+      "Epoch 162/1000\n",
       "\u001b[1m193/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━━\u001b[0m \u001b[1m0s\u001b[0m 2ms/step - accuracy: 0.7327 - loss: 1.1882\n",
       "Epoch 162: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 3ms/step - accuracy: 0.7387 - loss: 1.1671 - val_accuracy: 0.8513 - val_loss: 0.8724\n",
@@ -1178,13 +1154,7 @@
       "\u001b[1m208/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━\u001b[0m \u001b[1m0s\u001b[0m 3ms/step - accuracy: 0.7452 - loss: 1.1236\n",
       "Epoch 207: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 4ms/step - accuracy: 0.7441 - loss: 1.1339 - val_accuracy: 0.8554 - val_loss: 0.8282\n",
-      "Epoch 208/1000\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
+      "Epoch 208/1000\n",
       "\u001b[1m200/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━━\u001b[0m \u001b[1m0s\u001b[0m 2ms/step - accuracy: 0.7406 - loss: 1.1436\n",
       "Epoch 208: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 3ms/step - accuracy: 0.7470 - loss: 1.1227 - val_accuracy: 0.8539 - val_loss: 0.8426\n",
@@ -1374,13 +1344,7 @@
       "\u001b[1m198/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━━\u001b[0m \u001b[1m0s\u001b[0m 3ms/step - accuracy: 0.7522 - loss: 1.0860\n",
       "Epoch 253: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 4ms/step - accuracy: 0.7523 - loss: 1.0992 - val_accuracy: 0.8619 - val_loss: 0.7944\n",
-      "Epoch 254/1000\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
+      "Epoch 254/1000\n",
       "\u001b[1m206/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━\u001b[0m \u001b[1m0s\u001b[0m 3ms/step - accuracy: 0.7579 - loss: 1.0961\n",
       "Epoch 254: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 4ms/step - accuracy: 0.7551 - loss: 1.0996 - val_accuracy: 0.8498 - val_loss: 0.8006\n",
@@ -1570,13 +1534,7 @@
       "\u001b[1m212/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━\u001b[0m \u001b[1m0s\u001b[0m 2ms/step - accuracy: 0.7557 - loss: 1.0782\n",
       "Epoch 299: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 3ms/step - accuracy: 0.7568 - loss: 1.0675 - val_accuracy: 0.8541 - val_loss: 0.7874\n",
-      "Epoch 300/1000\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
+      "Epoch 300/1000\n",
       "\u001b[1m211/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━\u001b[0m \u001b[1m0s\u001b[0m 3ms/step - accuracy: 0.7571 - loss: 1.0735\n",
       "Epoch 300: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 4ms/step - accuracy: 0.7542 - loss: 1.0898 - val_accuracy: 0.8616 - val_loss: 0.7840\n",
@@ -1766,13 +1724,7 @@
       "\u001b[1m211/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━\u001b[0m \u001b[1m0s\u001b[0m 3ms/step - accuracy: 0.7647 - loss: 1.0535\n",
       "Epoch 345: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 4ms/step - accuracy: 0.7615 - loss: 1.0558 - val_accuracy: 0.8669 - val_loss: 0.7573\n",
-      "Epoch 346/1000\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
+      "Epoch 346/1000\n",
       "\u001b[1m212/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━\u001b[0m \u001b[1m0s\u001b[0m 2ms/step - accuracy: 0.7576 - loss: 1.0615\n",
       "Epoch 346: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 3ms/step - accuracy: 0.7590 - loss: 1.0576 - val_accuracy: 0.8607 - val_loss: 0.7595\n",
@@ -1962,13 +1914,7 @@
       "\u001b[1m190/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━━━\u001b[0m \u001b[1m0s\u001b[0m 3ms/step - accuracy: 0.7642 - loss: 1.0380\n",
       "Epoch 391: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 4ms/step - accuracy: 0.7632 - loss: 1.0416 - val_accuracy: 0.8564 - val_loss: 0.7526\n",
-      "Epoch 392/1000\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
+      "Epoch 392/1000\n",
       "\u001b[1m195/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━━\u001b[0m \u001b[1m0s\u001b[0m 3ms/step - accuracy: 0.7660 - loss: 1.0332\n",
       "Epoch 392: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 4ms/step - accuracy: 0.7644 - loss: 1.0341 - val_accuracy: 0.8708 - val_loss: 0.7485\n",
@@ -2158,13 +2104,7 @@
       "\u001b[1m208/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━\u001b[0m \u001b[1m0s\u001b[0m 2ms/step - accuracy: 0.7642 - loss: 1.0237\n",
       "Epoch 437: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 3ms/step - accuracy: 0.7632 - loss: 1.0228 - val_accuracy: 0.8613 - val_loss: 0.7307\n",
-      "Epoch 438/1000\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
+      "Epoch 438/1000\n",
       "\u001b[1m200/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m━━\u001b[0m \u001b[1m0s\u001b[0m 2ms/step - accuracy: 0.7669 - loss: 1.0297\n",
       "Epoch 438: saving model to model/keypoint_classifier/keypoint_classifier.keras\n",
       "\u001b[1m214/214\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m1s\u001b[0m 3ms/step - accuracy: 0.7674 - loss: 1.0276 - val_accuracy: 0.8709 - val_loss: 0.7404\n",
@@ -2677,3 +2617,115 @@
  "nbformat": 4,
  "nbformat_minor": 1
 }
+dataset = 'model/keypoint_classifier/keypoint.csv'
+model_save_path = 'model/keypoint_classifier/keypoint_classifier.keras'
+tflite_save_path = 'model/keypoint_classifier/keypoint_classifier.tflite'
+NUM_CLASSES = 26
+X_dataset = np.loadtxt(dataset, delimiter=',', dtype='float32', usecols=list(range(1, (21 * 2) + 1)))
+y_dataset = np.loadtxt(dataset, delimiter=',', dtype='int32', usecols=(0))
+X_train, X_test, y_train, y_test = train_test_split(X_dataset, y_dataset, train_size=0.75, random_state=RANDOM_SEED)
+model = tf.keras.models.Sequential([
+    tf.keras.layers.Input((21 * 2, )),
+    tf.keras.layers.BatchNormalization(),
+    tf.keras.layers.Dense(128, activation='mish', kernel_regularizer=tf.keras.regularizers.l2(0.01)),
+    tf.keras.layers.Dropout(0.5),
+    tf.keras.layers.Dense(64, activation='mish', kernel_regularizer=tf.keras.regularizers.l2(0.01)),
+    tf.keras.layers.Dropout(0.5),
+    tf.keras.layers.Dense(32, activation='mish', kernel_regularizer=tf.keras.regularizers.l2(0.01)),
+    tf.keras.layers.Dense(NUM_CLASSES, activation='softmax')
+])
+model.summary()  # tf.keras.utils.plot_model(model, show_shapes=True)
+# Model checkpoint callback
+cp_callback = tf.keras.callbacks.ModelCheckpoint(
+    model_save_path, verbose=1, save_weights_only=False)
+# Callback for early stopping
+es_callback = tf.keras.callbacks.EarlyStopping(patience=20, verbose=1)
+# Model compilation
+model.compile(
+    optimizer='Adam',
+    loss='sparse_categorical_crossentropy',
+    metrics=['accuracy']
+)
+model.fit(
+    X_train,
+    y_train,
+    epochs=1000,
+    batch_size=128,
+    validation_data=(X_test, y_test),
+    callbacks=[cp_callback, es_callback]
+)
+# Model evaluation
+val_loss, val_acc = model.evaluate(X_test, y_test, batch_size=128)
+# Loading the saved model
+model = tf.keras.models.load_model(model_save_path)
+# Inference test
+predict_result = model.predict(np.array([X_test[0]]))
+print(np.squeeze(predict_result))
+print(np.argmax(np.squeeze(predict_result)))
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix, classification_report
+
+def print_confusion_matrix(y_true, y_pred, report=True):
+    labels = sorted(list(set(y_true)))
+    cmx_data = confusion_matrix(y_true, y_pred, labels=labels)
+    
+    df_cmx = pd.DataFrame(cmx_data, index=labels, columns=labels)
+ 
+    fig, ax = plt.subplots(figsize=(7, 6))
+    sns.heatmap(df_cmx, annot=True, fmt='g' ,square=False)
+    ax.set_ylim(len(set(y_true)), 0)
+    plt.show()
+    
+    if report:
+        print('Classification Report')
+        print(classification_report(y_test, y_pred))
+
+Y_pred = model.predict(X_test)
+y_pred = np.argmax(Y_pred, axis=1)
+
+print_confusion_matrix(y_test, y_pred)
+# Save as a model dedicated to inference
+model.save(model_save_path)
+# Transform model (quantization)
+
+# 1. Create a "representative dataset" generator
+# This feeds a few hundred samples to the converter 
+# so it can learn the data's range and quantize efficiently.
+def representative_data_gen():
+    for i in range(500): # Use 500 samples
+        # Use a random sample from your training data
+        index = np.random.randint(0, len(X_train) - 1)
+        yield [np.array([X_train[index]], dtype=np.float32)]
+
+# 2. Set up the converter
+converter = tf.lite.TFLiteConverter.from_keras_model(model)
+converter.optimizations = [tf.lite.Optimize.DEFAULT]
+converter.representative_dataset = representative_data_gen
+# This ensures it quantizes to 8-bit integers, which is what we want
+converter.target_spec.supported_ops = [tf.lite.OpsSet.TFLITE_BUILTINS_INT8]
+converter.inference_input_type = tf.int8  # or tf.uint8
+converter.inference_output_type = tf.int8 # or tf.uint8
+
+print("Starting TFLite conversion with quantization...")
+
+# 3. Convert the model
+tflite_quantized_model = converter.convert()
+
+# 4. Save the model
+open(tflite_save_path, 'wb').write(tflite_quantized_model)
+
+print(f"Successfully converted and saved model to {tflite_save_path}")
+interpreter = tf.lite.Interpreter(model_path=tflite_save_path)
+interpreter.allocate_tensors()
+# Get I / O tensor
+input_details = interpreter.get_input_details()
+output_details = interpreter.get_output_details()
+interpreter.set_tensor(input_details[0]['index'], np.array([X_test[0]]))
+%%time
+# Inference implementation
+interpreter.invoke()
+tflite_results = interpreter.get_tensor(output_details[0]['index'])
+print(np.squeeze(tflite_results))
+print(np.argmax(np.squeeze(tflite_results)))
