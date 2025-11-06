@@ -1,9 +1,6 @@
-opencv-python
+tensorflow
 mediapipe
-tensorflow==2.16.1
-Pillow
+opencv-python
+gTTS
+pygame
 numpy
-pandas
-seaborn
-scikit-learn
-matplotlib
