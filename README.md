@@ -14,7 +14,7 @@ It uses a modern, lightweight pipeline to detect hand gestures from a webcam, cl
 
 This project is split into three main parts:
 
-1.  **`collect_hand_data.py`**: A script to capture hand landmarks from a webcam. It saves the 42 normalized keypoints (21 x/y) for each sign into a `keypoint.csv` file.
+1.  **`Train.py`**: A script to capture hand landmarks from a webcam. It saves the 42 normalized keypoints (21 x/y) for each sign into a `keypoint.csv` file.
 2.  **`keypoint_classification.ipynb`**: A Jupyter Notebook that loads the `keypoint.csv`, trains a TensorFlow/Keras neural network on the data, and evaluates its accuracy.
 3.  **`real_time_detector.py`**: The final application. It uses MediaPipe to get keypoints, feeds them into the trained TFLite model for prediction, and speaks the confirmed letter.
 
@@ -26,7 +26,7 @@ Clone the repository and install the required libraries:
 
 ```bash
 git clone https://github.com/kunalxwork/ASL-To-Speech-Converter-.git
-cd ASL-To-Speech-Converter
+cd ASL-To-Speech-Converter-
 pip install -r requirements.txt
 ```
 
